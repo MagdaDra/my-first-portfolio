@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Intro = () => {
 	return (
-		<div className='pl-48 pt-20 mb-32'>
+		<div className='pl-36 pt-20 mb-32'>
 			<p className='text-6xl'>Hello,</p>
 			<p className='text-6xl mt-4'>
 				I am <span className='text-[#7b12ff]'>Magda</span>,
