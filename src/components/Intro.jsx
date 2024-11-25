@@ -1,11 +1,22 @@
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const Intro = () => {
+
+	useEffect(() => {
+		const element = document.querySelector('.animate-bounce');
+		const timer = setTimeout(() => {
+			element?.classList.remove('animate-bounce');
+		}, 2500);
+
+		return () => clearTimeout(timer); // Cleanup timer on unmount
+	}, []);
+	
 	return (
 		<div className='pl-36 pt-20 mb-32'>
 			<p className='text-6xl'>Hello,</p>
-			<p className='text-6xl mt-4'>
-				I am <span className='text-[#7b12ff]'>Magda</span>,
+			<p className='text-6xl mt-4 flex'>
+				I am <div className='text-[#7b12ff] animate-bounce ml-4'>Magda</div>,
 			</p>
 			<p className='text-6xl mt-4'>Full Stack Developer</p>
             <Link>

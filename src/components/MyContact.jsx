@@ -1,7 +1,7 @@
 const MyContact = () => {
     return (
-        <div>
-            <h1>Lets get in touch</h1>
+        <div className='flex mt-16 mb-16'>
+            <h1 className="text-3xl">Lets get in touch</h1>
             <button>Contact</button>
         </div>
     )
