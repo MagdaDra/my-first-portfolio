@@ -5,17 +5,33 @@ import AboutMe from './components/AboutMe';
 import MyProjects from './components/MyProjects';
 import MyContact from './components/MyContact';
 import Technologies from './components/Technologies';
+import AboutMePage from './pages/aboutMePage';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
 	return (
-		<div>
+		<>
 			<Navbar />
-			<Intro />
-			<AboutMe />
-			<Technologies />
-			<MyProjects />
-			<MyContact />
-		</div>
+			<Routes>
+				<Route 
+					path='/'
+					element=
+					{
+						<>
+							<Intro />
+							<AboutMe />
+							<Technologies />
+							<MyProjects />
+							<MyContact />
+						</>
+					}
+				/>
+				<Route
+					path='/aboutme'
+					element={<AboutMePage />}
+				/>
+			</Routes>
+		</>	
 	);
 }
 

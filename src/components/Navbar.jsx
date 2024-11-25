@@ -5,7 +5,12 @@ const Navbar = () => {
 		<nav>
 			<ul className='flex justify-end pt-6'>
 				<li className='pr-6'> 
-					<NavLink to='/aboutme'>ABOUT ME</NavLink>
+					<a
+						href='/aboutme'
+						target='_blank'
+					>
+						ABOUT ME
+					</a>
 				</li>
 				<li className='pr-6'>
 					<NavLink to='/projects'>PROJECTS</NavLink>
