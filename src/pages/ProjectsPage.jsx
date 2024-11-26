@@ -46,13 +46,13 @@ function ProjectsPage() {
                 <h2 className='pl-10 pt-6 text-[22px]'>Desktop view</h2>
                 <div className='flex'>
                     <div>
-                    <img className='w-96 pl-10 pt-6' src='/src/assets/ProjectsPics/homepage.png' />
+                    <img className='w-96 pl-10 pt-6' src='/src/assets/ProjectsPics/oMERCADO/homepage.png' />
                     </div>
                     <div>
-                    <img className='w-96 pl-10 pt-6' src='/src/assets/ProjectsPics/main view.png' />
+                    <img className='w-96 pl-10 pt-6' src='/src/assets/ProjectsPics/oMERCADO/main view.png' />
                     </div>
                     <div>
-                    <img className='w-96 pl-10 pt-6' src='/src/assets/ProjectsPics/client dashboard.png' />
+                    <img className='w-96 pl-10 pt-6' src='/src/assets/ProjectsPics/oMERCADO/client dashboard.png' />
                     </div>
                 </div>
             </div>

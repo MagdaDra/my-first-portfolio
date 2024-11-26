@@ -1,8 +1,7 @@
-
 const Navbar = () => {
 	return (
 		<nav>
-			<ul className='flex justify-end pt-6'>
+			<ul className='fixed w-full flex justify-end pt-6'>
 				<li className='pr-6'> 
 					<a
 						href='/aboutme'

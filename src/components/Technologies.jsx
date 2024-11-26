@@ -1,8 +1,8 @@
 const Technologies = () => {
 	return (
-		<div className='flex mt-16'>
+		<div className='flex mt-16 mb-32'>
 			<h1 className='text-3xl pl-36 mb-2 mt-16'>Technologies and tools</h1>
-			<ul className='pl-36 mt-24 pr-36'>
+			<ul className='pl-12 mt-24 pr-36'>
 				<li>
 					<span className='pl-32 mt-8 hover:text-xl hover:text-[#7b12ff]'>
 						CSS3
