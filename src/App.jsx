@@ -6,6 +6,7 @@ import MyProjects from './components/MyProjects';
 import MyContact from './components/MyContact';
 import Technologies from './components/Technologies';
 import AboutMePage from './pages/aboutMePage';
+import ProjectsPage from './pages/ProjectsPage';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -29,6 +30,10 @@ function App() {
 				<Route
 					path='/aboutme'
 					element={<AboutMePage />}
+				/>
+				<Route 
+					path='/projects'
+					element={<ProjectsPage />}
 				/>
 			</Routes>
 		</>	

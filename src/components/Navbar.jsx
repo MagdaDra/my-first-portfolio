@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
 	return (
@@ -13,10 +12,20 @@ const Navbar = () => {
 					</a>
 				</li>
 				<li className='pr-6'>
-					<NavLink to='/projects'>PROJECTS</NavLink>
+					<a 
+						href='/projects'
+						target='_blank'
+					>
+						PROJECTS
+					</a>
 				</li>
 				<li className='pr-12'>
-					<NavLink to='/contact'>CONTACT</NavLink>
+					<a
+						href='/contact'
+						target='_blank'
+					>
+						CONTACT
+					</a>
 				</li>
 			</ul>
 		</nav>
