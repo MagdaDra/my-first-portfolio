@@ -5,7 +5,7 @@ const Navbar = () => {
 				<li className='pr-6'> 
 					<a
 						href='/aboutme'
-						target='_blank'
+					//	target='_blank'
 					>
 						ABOUT ME
 					</a>
@@ -13,7 +13,6 @@ const Navbar = () => {
 				<li className='pr-6'>
 					<a 
 						href='/projects'
-						target='_blank'
 					>
 						PROJECTS
 					</a>
@@ -21,7 +20,6 @@ const Navbar = () => {
 				<li className='pr-12'>
 					<a
 						href='/contact'
-						target='_blank'
 					>
 						CONTACT
 					</a>

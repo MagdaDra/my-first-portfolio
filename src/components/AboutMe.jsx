@@ -7,7 +7,14 @@ const AboutMe = () => {
 				background in Industrial Engineering. 5 years of experience working in
 				e-commerce and tech companies, leading diverse teams and projects. I am
 				looking for a job where I can continuously learn and grow my Web
-				Development skills.
+				Development skills. Learn more {' '}
+				<a 
+				href='/aboutme'
+				target='_blank'
+				className='text-[#7b12ff] font-semibold'
+				> HERE
+				</a>
+				.
 			</p>
 		</div>			
 	);
