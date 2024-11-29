@@ -1,4 +1,5 @@
 import {Globe, GithubLogo} from 'phosphor-react';
+import Footer from '../components/Footer';
 
 function ProjectsPage() {
   return (
@@ -157,7 +158,7 @@ function ProjectsPage() {
                 <p>Back-end: mock JSON server</p>
             </div>
         </div>
-        <div>
+        <div className='mb-24'>
             <h1 className='pl-10 pt-12 font-bold text-[28px]'>Portuguese Food Ninja</h1>
 
             <p className='pl-10 pt-6 w-3/4'>PortugueseFoodNinja is a clicking game, built with JavaScript, HTML, and CSS. The player has to click all the food appearing on the screen in order to earn points. Once a bomb appears, a player has 5 seconds to click it. Otherwise it explodes and the game ends. If a player clicks a rooster, they gain one life. The higher the score the faster objects move. </p>
@@ -209,6 +210,7 @@ function ProjectsPage() {
             </div>
         </div>
 
+        <Footer/>
 
     </div>
   )
