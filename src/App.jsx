@@ -4,7 +4,7 @@ import Intro from './components/Intro';
 import AboutMe from './components/AboutMe';
 import MyProjects from './components/MyProjects';
 import Technologies from './components/Technologies';
-import AboutMePage from './pages/aboutMePage';
+import AboutMePage from './pages/AboutMePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
