@@ -2,6 +2,7 @@ import { LinkedinLogo, GithubLogo } from 'phosphor-react';
 import { NavLink } from 'react-router-dom';
 import Footer from '../components/Footer';
 
+
 function ContactPage() {
 	return (
 		<div className='flex flex-col min-h-screen'>
