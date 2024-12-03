@@ -65,13 +65,13 @@ function ProjectsPage() {
                 <h2 className='pl-10 pt-12 text-[22px]'>Desktop view</h2>
                 <div className='flex pt-2'>
                     <div>
-                    <img className='w-96 pl-10 pt-6' src='/src/assets/ProjectsPics/oMERCADO/homepage.png' />
+                    <img className='w-96 pl-10 pt-6' src='/public/assets/ProjectsPics/oMERCADO/homepage.png' />
                     </div>
                     <div>
-                    <img className='w-96 pl-10 pt-6' src='/src/assets/ProjectsPics/oMERCADO/main view.png' />
+                    <img className='w-96 pl-10 pt-6' src='/public/assets/ProjectsPics/oMERCADO/main view.png' />
                     </div>
                     <div>
-                    <img className='w-96 pl-10 pt-6' src='/src/assets/ProjectsPics/oMERCADO/client dashboard.png' />
+                    <img className='w-96 pl-10 pt-6' src='/public/assets/ProjectsPics/oMERCADO/client dashboard.png' />
                     </div>
                 </div>
             </div>
@@ -79,9 +79,9 @@ function ProjectsPage() {
             <div>
                 <h2 className='pl-10 pt-12 text-[22px]'>Mobile view</h2>
                 <div className='flex pt-2'>    
-                    <img className='w-48 pl-10 pt-6' src='/src/assets/ProjectsPics/oMERCADO/resp homepage.png' />
-                    <img className='w-48 pl-10 pt-6' src='/src/assets/ProjectsPics/oMERCADO/resp mainpage.png' />
-                    <img className='w-48 pl-10 pt-6' src='/src/assets/ProjectsPics/oMERCADO/resp dashboard.png' />
+                    <img className='w-48 pl-10 pt-6' src='/public/assets/ProjectsPics/oMERCADO/resp homepage.png' />
+                    <img className='w-48 pl-10 pt-6' src='/public/assets/ProjectsPics/oMERCADO/resp mainpage.png' />
+                    <img className='w-48 pl-10 pt-6' src='/public/assets/ProjectsPics/oMERCADO/resp dashboard.png' />
                 </div>
             </div>
             <div className='pl-10 pt-6 mb-16'>
@@ -133,13 +133,13 @@ function ProjectsPage() {
                 <h2 className='pl-10 pt-12 text-[22px]'>Desktop view</h2>
                 <div className='flex pt-2'>
                     <div>
-                    <img className='w-96 pl-10 pt-6' src='/src/assets/ProjectsPics/TuneTracker/tt main page.png' />
+                    <img className='w-96 pl-10 pt-6' src='/public/assets/ProjectsPics/TuneTracker/tt main page.png' />
                     </div>
                     <div>
-                    <img className='w-96 pl-10 pt-6' src='/src/assets/ProjectsPics/TuneTracker/tt album.png' />
+                    <img className='w-96 pl-10 pt-6' src='/public/assets/ProjectsPics/TuneTracker/tt album.png' />
                     </div>
                     <div>
-                    <img className='w-96 pl-10 pt-6' src='/src/assets/ProjectsPics/TuneTracker/tt my albums.png' />
+                    <img className='w-96 pl-10 pt-6' src='/public/assets/ProjectsPics/TuneTracker/tt my albums.png' />
                     </div>
                 </div>
             </div>
@@ -147,9 +147,9 @@ function ProjectsPage() {
             <div>
                 <h2 className='pl-10 pt-12 text-[22px]'>Mobile view</h2>
                 <div className='flex pt-2'>    
-                    <img className='w-48 pl-10 pt-6' src='/src/assets/ProjectsPics/TuneTracker/responsive main.png' />
-                    <img className='w-48 pl-10 pt-6' src='/src/assets/ProjectsPics/TuneTracker/responsive album.png' />
-                    <img className='w-48 pl-10 pt-6' src='/src/assets/ProjectsPics/TuneTracker/responsive my albums.png' />
+                    <img className='w-48 pl-10 pt-6' src='/public/assets/ProjectsPics/TuneTracker/responsive main.png' />
+                    <img className='w-48 pl-10 pt-6' src='/public/assets/ProjectsPics/TuneTracker/responsive album.png' />
+                    <img className='w-48 pl-10 pt-6' src='/public/assets/ProjectsPics/TuneTracker/responsive my albums.png' />
                 </div>
             </div>
             <div className='pl-10 pt-6 mb-16'>
@@ -193,13 +193,13 @@ function ProjectsPage() {
                 <h2 className='pl-10 pt-12 text-[22px]'>Desktop view</h2>
                 <div className='flex pt-2'>
                     <div>
-                    <img className='w-96 pl-10 pt-6' src='/src/assets/ProjectsPics/Pt Food Ninja/fn main.png' />
+                    <img className='w-96 pl-10 pt-6' src='/public/assets/ProjectsPics/Pt Food Ninja/fn main.png' />
                     </div>
                     <div>
-                    <img className='w-96 pl-10 pt-6' src='/src/assets/ProjectsPics/Pt Food Ninja/fn game.png' />
+                    <img className='w-96 pl-10 pt-6' src='/public/assets/ProjectsPics/Pt Food Ninja/fn game.png' />
                     </div>
                     <div>
-                    <img className='w-96 pl-10 pt-6' src='/src/assets/ProjectsPics/Pt Food Ninja/fn game over.png' />
+                    <img className='w-96 pl-10 pt-6' src='/public/assets/ProjectsPics/Pt Food Ninja/fn game over.png' />
                     </div>
                 </div>
             </div>
