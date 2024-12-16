@@ -11,8 +11,8 @@ const AboutMePage = () => {
 					companies, leading diverse teams and projects. In the last few months,
 					I have decided for a career change. I have always been curious how
 					things function inside out and while working for a tech company I got
-					really inspired by the Internet products. that is why when it came to
-					the career patch choice, my natural selection was Web Development. I
+					really inspired by the Internet products. That is why when it came to
+					the career path choice, my natural selection was Web Development. I
 					had spent 6 months studying MERN stack development and the world
 					behind Internet browsers and servers. During this challenging time
 					combined with full time work, I proved myself to be a fast,
