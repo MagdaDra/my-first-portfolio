@@ -1,11 +1,37 @@
 import {Globe, GithubLogo} from 'phosphor-react';
 import Footer from '../components/Footer';
+import { useLayoutEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function ProjectsPage() {
+
+  const location = useLocation();
+
+  useLayoutEffect(() => {
+    setTimeout(() => {
+        if (location.state?.scrollTo) {
+            const element = document.getElementById(location.state.scrollTo);
+            if (element) {
+                const headerHeight = document.querySelector('.pl-10')?.getBoundingClientRect()?.height || 0;
+                const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+                const offsetPosition = elementPosition - headerHeight;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth',
+                });
+
+                console.log('Scrolling to: ', offsetPosition);
+            }
+        }
+    }, 100);
+}, [location]);
+
+
   return (
     <div>
         <div>
-            <h1 className='pl-10 pt-24 font-bold text-[28px]'>oMERCADO</h1>
+            <h1 className='pl-10 pt-24 font-bold text-[28px]' id='omercado'>oMERCADO</h1>
 
             <p className='pl-10 pt-6 w-3/4'>oMERCADO is an e-commerce store for services with a customer and seller view. The website has authentication feature where user can choose whether to have &apos;customer&apos;, &apos;seller&apos; profile or both. Sellers can add their services to sell and control their stock. Customers can purchase services through the cart function and view their past transactions.</p>
             <div className='flex mt-14 pl-10 mb-14'>
@@ -14,7 +40,7 @@ function ProjectsPage() {
 					target='_blank'
                 >
                     <div className='flex flex-col items-center mr-16'>
-                        <Globe 
+                        <Globe
                             size={32}
                         />
                         <h3>Website</h3>
@@ -25,10 +51,10 @@ function ProjectsPage() {
 					target='_blank'
                 >
                 <div className='flex flex-col items-center mr-16'>
-                    <GithubLogo 
+                    <GithubLogo
                         size={32}
                     />
-                    <h3>Client Repository Link</h3>     
+                    <h3>Client Repository Link</h3>
                 </div>
                 </a>
                 <a
@@ -36,7 +62,7 @@ function ProjectsPage() {
 					target='_blank'
                 >
                 <div className='flex flex-col items-center'>
-                    <GithubLogo 
+                    <GithubLogo
                         size={32}
                     />
                     <h3>Server Repository Link</h3>
@@ -44,7 +70,7 @@ function ProjectsPage() {
                 </a>
 
             </div>
-            
+
             <div>
                 <h3 className='pl-10 text-[14px]'>If you don&apos;t want to create account please use the credentials below:</h3>
                 <div className='flex pt-2'>
@@ -53,7 +79,7 @@ function ProjectsPage() {
                     <p className='pl-10 text-[14px]'>email: i@g.com</p>
                     <p className='pl-10 text-[14px]'>password: Ironhack1?</p>
                 </div>
-                <div>                
+                <div>
                     <p className='pl-10 text-[14px]'>Seller: </p>
                     <p className='pl-10 text-[14px]'>email: i@gmail.com</p>
                     <p className='pl-10 text-[14px]'>password: Ironhack1?</p>
@@ -78,7 +104,7 @@ function ProjectsPage() {
 
             <div>
                 <h2 className='pl-10 pt-12 text-[22px]'>Mobile view</h2>
-                <div className='flex pt-2'>    
+                <div className='flex pt-2'>
                     <img className='w-48 pl-10 pt-6' src='/assets/ProjectsPics/oMERCADO/resp homepage.png' />
                     <img className='w-48 pl-10 pt-6' src='/assets/ProjectsPics/oMERCADO/resp mainpage.png' />
                     <img className='w-48 pl-10 pt-6' src='/assets/ProjectsPics/oMERCADO/resp dashboard.png' />
@@ -91,7 +117,7 @@ function ProjectsPage() {
             </div>
         </div>
         <div>
-            <h1 className='pl-10 pt-12 font-bold text-[28px]'>TuneTracker</h1>
+            <h1 className='pl-10 pt-12 font-bold text-[28px]' id='tune-tracker'>TuneTracker</h1>
 
             <p className='pl-10 pt-6 w-3/4'>TuneTracker is a music albums browser. Users can browse recently released albums, rate them, add to &apos;myalbums&apos; &apos;wishlist&apos; folders. The application is fully responsive having both desktop and mobile views. It is Single Page Application (SPA), created using React.js, consisting of multiple views. It is integrated with a mock backend (JSON server) and the Spotify API. The app performs all CRUD operations.</p>
             <div className='flex mt-14 pl-10 mb-14'>
@@ -100,7 +126,7 @@ function ProjectsPage() {
 					target='_blank'
                 >
                     <div className='flex flex-col items-center mr-16'>
-                        <Globe 
+                        <Globe
                             size={32}
                         />
                         <h3>Website</h3>
@@ -111,15 +137,15 @@ function ProjectsPage() {
 					target='_blank'
                 >
                 <div className='flex flex-col items-center mr-16'>
-                    <GithubLogo 
+                    <GithubLogo
                         size={32}
                     />
-                    <h3>Github Repository Link</h3>     
+                    <h3>Github Repository Link</h3>
                 </div>
                 </a>
 
             </div>
-            
+
             <div>
                 <h3 className='pl-10 text-[14px]'>Spotify API allows only 10 emails to be added to access the free API version. Please use the credentials below to login:</h3>
                 <div className='pt-2'>
@@ -146,7 +172,7 @@ function ProjectsPage() {
 
             <div>
                 <h2 className='pl-10 pt-12 text-[22px]'>Mobile view</h2>
-                <div className='flex pt-2'>    
+                <div className='flex pt-2'>
                     <img className='w-48 pl-10 pt-6' src='/assets/ProjectsPics/TuneTracker/responsive main.png' />
                     <img className='w-48 pl-10 pt-6' src='/assets/ProjectsPics/TuneTracker/responsive album.png' />
                     <img className='w-48 pl-10 pt-6' src='/assets/ProjectsPics/TuneTracker/responsive my albums.png' />
@@ -159,7 +185,7 @@ function ProjectsPage() {
             </div>
         </div>
         <div className='mb-24'>
-            <h1 className='pl-10 pt-12 font-bold text-[28px]'>Portuguese Food Ninja</h1>
+            <h1 className='pl-10 pt-12 font-bold text-[28px]' id='food-ninja'>Portuguese Food Ninja</h1>
 
             <p className='pl-10 pt-6 w-3/4'>PortugueseFoodNinja is a clicking game, built with JavaScript, HTML, and CSS. The player has to click all the food appearing on the screen in order to earn points. Once a bomb appears, a player has 5 seconds to click it. Otherwise it explodes and the game ends. If a player clicks a rooster, they gain one life. The higher the score the faster objects move. </p>
             <div className='flex mt-14 pl-10 mb-14'>
@@ -168,7 +194,7 @@ function ProjectsPage() {
 					target='_blank'
                 >
                     <div className='flex flex-col items-center mr-16'>
-                        <Globe 
+                        <Globe
                             size={32}
                         />
                         <h3>Website</h3>
@@ -179,15 +205,15 @@ function ProjectsPage() {
 					target='_blank'
                 >
                 <div className='flex flex-col items-center mr-16'>
-                    <GithubLogo 
+                    <GithubLogo
                         size={32}
                     />
-                    <h3>Github Repository Link</h3>     
+                    <h3>Github Repository Link</h3>
                 </div>
                 </a>
 
             </div>
-            
+
 
             <div>
                 <h2 className='pl-10 pt-12 text-[22px]'>Desktop view</h2>
