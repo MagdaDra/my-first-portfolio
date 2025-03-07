@@ -1,29 +1,29 @@
 const Navbar = () => {
 	return (
 		<nav>
-			<ul className='fixed w-full flex justify-end pt-6'>
-				<li className='pr-6'>
+			<ul className='fixed w-full flex justify-around pt-6 text-xs md:justify-end md:text-base'>
+				<li className='md:pr-6'>
 					<a
 						href='/'
 					>
 						HOME
 					</a>
 				</li>
-				<li className='pr-6'>
+				<li className='md:pr-6'>
 					<a
 						href='/aboutme'
 					>
 						ABOUT ME
 					</a>
 				</li>
-				<li className='pr-6'>
+				<li className='md:pr-6'>
 					<a
 						href='/projects'
 					>
 						PROJECTS
 					</a>
 				</li>
-				<li className='pr-12'>
+				<li className='md:pr-12'>
 					<a
 						href='/contact'
 					>
