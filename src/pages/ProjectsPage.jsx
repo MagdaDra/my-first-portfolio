@@ -39,7 +39,7 @@ function ProjectsPage() {
                 	href='https://omercado.netlify.app/'
 					target='_blank'
                 >
-                    <div className='flex flex-col items-center mr-16'>
+                    <div className='flex flex-col items-center mr-16 mb-8'>
                         <Globe
                             size={32}
                         />
@@ -50,7 +50,7 @@ function ProjectsPage() {
                 	href='https://github.com/MagdaDra/oMERCADO_client'
 					target='_blank'
                 >
-                <div className='flex flex-col items-center mr-16 mt-8'>
+                <div className='flex flex-col items-center mr-16 mb-8'>
                     <GithubLogo
                         size={32}
                     />
@@ -61,7 +61,7 @@ function ProjectsPage() {
                 	href='https://github.com/MagdaDra/oMERCADO_server'
 					target='_blank'
                 >
-                <div className='flex flex-col items-center mr-16 mt-8'>
+                <div className='flex flex-col items-center mr-16'>
                     <GithubLogo
                         size={32}
                     />
@@ -188,7 +188,7 @@ function ProjectsPage() {
             <h1 className='pl-8 pt-12 font-bold text-[28px]' id='food-ninja'>Portuguese Food Ninja</h1>
 
             <p className='pl-8 pr-8 pt-6 md:w-3/4'>PortugueseFoodNinja is a clicking game, built with JavaScript, HTML, and CSS. The player has to click all the food appearing on the screen in order to earn points. Once a bomb appears, a player has 5 seconds to click it. Otherwise it explodes and the game ends. If a player clicks a rooster, they gain one life. The higher the score the faster objects move. </p>
-            <div className='md:flex mt-14 pl-10 md:mb-14'>
+            <div className='md:flex mt-14 pl-10 mb-14'>
                 <a
                 	href='https://pt-foodninja.netlify.app/'
 					target='_blank'
@@ -216,7 +216,7 @@ function ProjectsPage() {
 
 
             <div>
-                <h2 className='pl-8 pt-12 text-[22px]'>Desktop view</h2>
+                <h2 className='pl-8 text-[22px]'>Desktop view</h2>
                 <div className='md:flex pt-2'>
                     <div>
                     <img className='md:w-96 pl-8 pr-8 pt-6' src='/assets/ProjectsPics/Pt Food Ninja/fn main.png' />
