@@ -4,8 +4,8 @@ const AboutMePage = () => {
 	return (
 		<div className="flex flex-col min-h-screen">
 			<div className='flex-grow'>
-				<h1 className='text-3xl pl-36 mb-2 pt-24'>About me</h1>
-				<p className='pl-36 text-justify w-4/5 leading-7 mt-8'>
+				<h1 className='text-3xl pl-8 md:pl-36 mb-2 pt-24'>About me</h1>
+				<p className=' pl-8 md:pl-36 text-justify w-4/5 leading-7 mt-8 mb-16'>
 					I am a Full Stack Developer with a background in Industrial
 					Engineering. 5 years of experience working in e-commerce and tech
 					companies, leading diverse teams and projects. In the last few months,
