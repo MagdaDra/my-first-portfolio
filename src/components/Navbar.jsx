@@ -1,7 +1,7 @@
 const Navbar = () => {
 	return (
-		<nav>
-			<ul className='fixed w-full flex justify-around pt-6 text-xs md:justify-end md:text-base'>
+		<nav className='bg-[#f2eeea] fixed top-0 left-0 right-0 z-50'>
+			<ul className='flex justify-around pt-6 pb-4 text-xs md:justify-end md:text-base'>
 				<li className='md:pr-6'>
 					<a
 						href='/'
